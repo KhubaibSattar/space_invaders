@@ -36,7 +36,7 @@ void BattleField::drawObjects(){
 void BattleField::createObject(){
     random_2 = rand() % 500 + 1;
     //random_3 = rand() % 500 + 1;
-    random_choose = rand() % 5 + 1;
+    random_choose = rand() % 2 + 1;
     //SDL_Rect mov = {950, random_2, 50, 40};
 
     random_3 = rand() % 20 + 1;
